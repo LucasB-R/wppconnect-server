@@ -40,7 +40,7 @@ export function initServer(serverOptions) {
   const logger = createLogger(serverOptions.log);
 
   const app = express();
-  const PORT = process.env.PORT || serverOptions.port;
+  const PORT = process.env.PORT || 3000;
 
   const http = new createServer(app);
   const io = new Socket(http, {
