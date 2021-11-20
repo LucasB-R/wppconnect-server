@@ -1,6 +1,6 @@
 {
   "secretKey": "THISISMYSECURETOKEN",
-  "host": "http://138.117.254.141",
+  "host": "https://uatendentes.herokuapp.com",
   "port": "80",
   "deviceName" : "WppConnect",
   "startAllSession": true,
